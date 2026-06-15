@@ -30,11 +30,17 @@
 
 🔢 Different result lengths: 
 - **Expected:** 1
-- **Got:** 2
+- **Got:** 0
 
 ---
 - ✔️ OK - Query **[ 10 ]**
 
 ---
 - ✔️ OK - Query **[ 11 ]**
+
+---
+- ✔️ OK - Query **[ 12 ]**
+
+---
+- ✔️ OK - Query **[ 13 ]**
 
