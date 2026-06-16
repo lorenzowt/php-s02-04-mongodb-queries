@@ -80,6 +80,9 @@
 - ✔️ OK - Query **[ 23 ]**
 
 ---
+- ✔️ OK - Query **[ 24 ]**
+
+---
 - ✔️ OK - Query **[ 25 ]**
 
 ---
@@ -94,5 +97,5 @@
 
 🔢 Different result lengths: 
 - **Expected:** 3
-- **Got:** 2
+- **Got:** 0
 
