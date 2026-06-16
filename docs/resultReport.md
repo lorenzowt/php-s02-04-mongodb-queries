@@ -51,10 +51,5 @@
 - ✔️ OK - Query **[ 15 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 16 ]** Result does not match expected output.
-
-
-🔢 Different result lengths: 
-- **Expected:** 4
-- **Got:** 0
+- ✔️ OK - Query **[ 16 ]**
 
