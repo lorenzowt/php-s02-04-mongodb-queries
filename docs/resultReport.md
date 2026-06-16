@@ -57,12 +57,10 @@
 - ✔️ OK - Query **[ 17 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 18 ]** Result does not match expected output.
+- ✔️ OK - Query **[ 18 ]**
 
-
-🔢 Different result lengths: 
-- **Expected:** 359
-- **Got:** 305
+---
+- ✔️ OK - Query **[ 19 ]**
 
 ---
 - ✔️ OK - Query **[ 20 ]**
