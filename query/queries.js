@@ -44,7 +44,7 @@ db.restaurants.find({name: {$regex: "^Wil"}}, {_id : 0, restaurant_id: 1, name: 
 db.restaurants.find({name: {$regex: "ces$"}}, {_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1})
 
 // 16. Trobar restaurant_id, name, borough i cuisine on el nom conté 'Reg'.
-db.restaurants.find({name: {$regex: "reg"}}, {_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1})
+db.restaurants.find({name: {$regex: "Reg"}}, {_id: 0, restaurant_id: 1, name: 1, borough: 1, cuisine: 1})
 
 // 17. Trobar restaurants del Bronx que preparen cuina americana o xinesa.
 
