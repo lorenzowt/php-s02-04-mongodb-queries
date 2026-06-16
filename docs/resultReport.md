@@ -92,26 +92,11 @@
 - ✔️ OK - Query **[ 27 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 28 ]** Result does not match expected output.
-
-
-🔢 Different result lengths: 
-- **Expected:** 3
-- **Got:** 2
+- ✔️ OK - Query **[ 28 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 29 ]** Result does not match expected output.
-
-
-🧩 Mismatch at position 0:
-- **Expected:** {"location":{},"name":"Morris Park Bake Shop","restaurant_id":30075445}
-- **Actual:** {"location":{},"restaurant_id":30075445}
+- ✔️ OK - Query **[ 29 ]**
 
 ---
-- ❌ MISMATCH - Query **[ 31 ]** Result does not match expected output.
-
-
-🧩 Mismatch at position 0:
-- **Expected:** {"borough":"Manhattan","cuisine":"American","location":{},"name":"Desmond'S Tavern"}
-- **Actual:** {"borough":"Manhattan","name":"Desmond'S Tavern"}
+- ✔️ OK - Query **[ 31 ]**
 
