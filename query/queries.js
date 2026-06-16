@@ -68,7 +68,7 @@ db.restaurants.find({grades: {$elemMatch: {grade: "A", score: 11, date: "2014-08
 db.restaurants.find({"grades.1": {grade: "A", score: 9, date: "2014-08-11T00:00:00Z"}}, {_id: 0, restaurant_id: 1, name: 1, grades: 1});
 
 // 24. Trobar el restaurant_id, name, street, zipcode i coordenades dels restaurants a menys de 5 km de [-74, 40.7].
-db.restaurants.find({location: {$near: {$geometry: { type: "Point", coordinates: [-74, 40.7]}, $maxDistance: 5000}}}, {_id: 0, restaurant_id: 1, name: 1, "address.street": 1, "address.zipcode": 1, "location.coordinates": 1}) 
+db.restaurants.find({location: {$near: {$geometry: { type: "Point", coordinates: [-74, 40.7]}, $maxDistance: 5000}}}, {_id: 0, restaurant_id: 1, name: 1, "address.street": 1, "address.zipcode": 1, "location.coordinates": 1});
 
 // 25. Ordenar els noms dels restaurants en ordre ascendent, mostrant totes les columnes.
 db.restaurants.find({}, {_id: 0}).sort({name: 1});
@@ -80,7 +80,7 @@ db.restaurants.find({}, {_id: 0}).sort({name: -1});
 db.restaurants.find({}, {_id: 0}).sort({cuisine: 1, borough: -1});
 
 // 28. Mostrar direccions que no contenen el carrer.
-db.restaurants.find({"address.street": {$exists: false, $ne: null}}, {_id: 0, address: 1})
+db.restaurants.find({"address.street": {$exists: false, $ne: null}}, {_id: 0, address: 1});
 
 // 29. Seleccionar documents on el valor de `coordinate` és de tipus Double. Mostrar el name, restaurant_id i coordinades.
 
