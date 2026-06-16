@@ -89,6 +89,6 @@ db.restaurants.find({"location.coordinates": {$elemMatch: {$type: "double" }}}, 
 
 
 // 31. Trobar name, borough, longitud, latitud i cuisine per noms que contenen 'mon'.
-db.restaurants.find({name: {$regex: "mon", $options: "i"}}, {_id:0, name: 1, borough: 1, cuisine: 1 "location.coordinates": 1});
+db.restaurants.find({name: {$regex: "mon", $options: "i"}}, {_id:0, name: 1, borough: 1, cuisine: 1, "location.coordinates": 1});
 
 // 32. Mostrar restaurant_id, name i grade i score de més de 80 però menys que 100.
