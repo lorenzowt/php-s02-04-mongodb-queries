@@ -62,7 +62,7 @@ db.restaurants.find({"grades.score": {$lte: 10}}, {_id: 0, restaurant_id: 1, nam
 db.restaurants.find({$or : [{cuisine: "Seafood"}, {name: {$regex: "^Wil"}}]}, {_id: 0});
 
 // 22. Trobar restaurant_id, name, i grades per grau "A", score 11, i data "2014-08-11T00:00:00Z".
-db.restaurants.find({grades: {$elemMatch: {"grades.grade": "A", "grades.score": 11, "grades.date": "2014-08-11T00:00:00.000Z"}}},{_id: 0, restaurant_id: 1, name: 1, grades: 1});
+db.restaurants.find({grades: {$elemMatch: {grade: "A", score: 11, date: "2014-08-11T00:00:00.000Z"}}},{_id: 0, restaurant_id: 1, name: 1, grades: 1});
 
 // 23. Trobar restaurant_id, name i grades on el 2n element té grau "A", score 9 i data "2014-08-11T00:00:00Z".
 
