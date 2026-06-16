@@ -73,3 +73,11 @@
 - **Expected:** 14
 - **Got:** 12
 
+---
+- ❌ MISMATCH - Query **[ 22 ]** Result does not match expected output.
+
+
+🔢 Different result lengths: 
+- **Expected:** 1
+- **Got:** 0
+
